@@ -3,7 +3,7 @@ This repository contains various bits of documentation for Towel: a tutorial, co
 
 ## Command list
 Command     | Alias | Description                                             | Implemented?
---------------------------------------------------------------------------------------------
+------------|-------|---------------------------------------------------------|--------------
 **number**  |       | Pushes **int** to the stack.                            | moisture
 "**word**   |       | Pushes the ascii codes of **word** to the stack.        | moisture
 drop        |       | Pops the top value and discards it.                     | moisture (as 'pop')
