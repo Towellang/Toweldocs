@@ -1,0 +1,11 @@
+#!/usr/bin/moisture
+// New standard
+
+"Hello 32 "World
+rev
+
+[
+putchr
+]
+
+end

@@ -1,0 +1,9 @@
+#!/usr/bin/moisture
+0 1
+
+[
+dup nput 
+dup lower +
+]
+
+end
