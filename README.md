@@ -1,6 +1,8 @@
 # Toweldocs
 This repository contains various bits of documentation for Towel: a tutorial, code examples, a command list, and a more formal description of the language.
 
+![Towel](https://raw.githubusercontent.com/Towellang/Toweldocs/master/logo.png)
+
 ## Command list
 ### Stack operations
 Command  | Description                                             | Implemented?
