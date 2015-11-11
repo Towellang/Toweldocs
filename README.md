@@ -28,5 +28,13 @@ Command | Alias | Description                                                   
 --------|-------|-----------------------------------------------------------------------------|--------------
 put     | ,     | Prints the top value to the stdout.                                         | moisture (no alias)
 putchr  | .     | Prints the ascii character with top value code to the stdout.               | moisture (no alias)
-nput    |       | Prints the top value to the stdout with a newline.                          | moisture (no alias)
-nputchr |       | Prints the ascii character with top value code to the stdout with a newline.| moisture (no alias)
+nput    |       | Prints the top value to the stdout with a newline.                          | moisture
+nputchr |       | Prints the ascii character with top value code to the stdout with a newline.| moisture
+grab    |       | Asks the user for input (which can be a character, string, or number).      | moisture (with excess arg)
+
+###Loops
+Command | Alias | Description                                                                 | Implemented?
+--------|-------|-----------------------------------------------------------------------------|--------------
+sloop   | [     | Marks the beginning of a loop.                                              | moisture (alias only)
+eloop   | ]    | Marks the ending of a loop. The instruction pointer jumps back to the matching sloop, unless the stack is empty or the top value is 0.                                                                        | moisture (alias only)
+neloop  | !]   | Marks the ending of a loop. The instruction pointer jumps back to the matching sloop if stack is empty or the top value is 0. | moisture (alias only)
