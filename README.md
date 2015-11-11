@@ -1,7 +1,6 @@
 # Toweldocs
 This repository contains various bits of documentation for Towel: a tutorial, code examples, a command list, and a more formal description of the language.
 
-![Towel](https://raw.githubusercontent.com/Towellang/Toweldocs/master/logo.png)
 
 ## Command list
 ### Stack operations
@@ -52,3 +51,6 @@ Command | Description                                                           
 --------|-----------------------------------------------------------------------------|--------------
 dump    | Prints the entire stack to the stdout.                                      | moisture (as 'debug')
 end     | Stops the program, appends a newline to the stdout, and exits with code 0.  | moisture
+
+
+![Towel](https://raw.githubusercontent.com/Towellang/Toweldocs/master/logo.png)
