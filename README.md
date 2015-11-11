@@ -38,3 +38,15 @@ Command | Alias | Description                                                   
 sloop   | [     | Marks the beginning of a loop.                                              | moisture (alias only)
 eloop   | ]    | Marks the ending of a loop. The instruction pointer jumps back to the matching sloop, unless the stack is empty or the top value is 0.                                                                        | moisture (alias only)
 neloop  | !]   | Marks the ending of a loop. The instruction pointer jumps back to the matching sloop if stack is empty or the top value is 0. |
+
+### Gotos
+Command | Description                                                                 | Implemented?
+--------|-----------------------------------------------------------------------------|--------------
+lbl *x* | Creates a label at the current line with name *x*. Can only be used on a line of its own. | moisture
+goto *x*| Moves the instruction pointer to label *x*. | moisture
+
+### Other
+Command | Description                                                                 | Implemented?
+--------|-----------------------------------------------------------------------------|--------------
+dump    | Prints the entire stack to the stdout.                                      | moisture (as 'debug')
+end     | Stops the program, appends a newline to the stdout, and exits with code 0.  | moisture
