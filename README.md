@@ -8,7 +8,7 @@ Command  | Description                                             | Implemented
 ---------|---------------------------------------------------------|--------------
 *number* | Pushes *int* to the stack.                              | moisture
 "*word*  | Pushes the ascii codes of *word* to the stack.          | moisture
-drop     | Pops the top value and discards it.                     | moisture (as 'pop')
+drop     | Pops the top value and discards it.                     | moisture
 dup      | Pops the top value and pushes it to the stack two times.| moisture
 rand     | Pushes a random value (0-99) to the stack.              | moisture
 rev      | Reverses the entire stack.                              | moisture
@@ -49,7 +49,7 @@ goto *x*| Moves the instruction pointer to label *x*. | moisture
 ### Other
 Command | Description                                                                 | Implemented?
 --------|-----------------------------------------------------------------------------|--------------
-dump    | Prints the entire stack to the stdout.                                      | moisture (as 'debug')
+dump    | Prints the entire stack to the stdout.                                      | moisture
 end     | Stops the program, appends a newline to the stdout, and exits with code 0.  | moisture
 
 
