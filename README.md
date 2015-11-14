@@ -39,6 +39,8 @@ Command | Alias | Description                                                   
 sloop   | [     | Marks the beginning of a loop.                                              | moisture (alias only)
 eloop   | ]    | Marks the ending of a loop. The instruction pointer jumps back to the matching sloop, unless the stack is empty or the top value is 0.                                                                        | moisture (alias only)
 neloop  | !]   | Marks the ending of a loop. The instruction pointer jumps back to the matching sloop if stack is empty or the top value is 0. |
+break   |      | Exits current loop without completing it.                                    |
+continue|      | Goes to beginning of loop.                                                   |
 
 ### Gotos
 Command | Description                                                                 | Implemented?
