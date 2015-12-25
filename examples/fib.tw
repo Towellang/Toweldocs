@@ -2,8 +2,9 @@
 0 1
 
 [
-dup nput 
+dup put 10 chr
 dup lower +
+dup 610 <= break
 ]
 
 end
