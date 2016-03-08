@@ -3,8 +3,6 @@
 "Hello" 32 "World"
 rev
 
-[
-chr
-]
+[ chr ]
 
 end
